@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url("https://media.istockphoto.com/id/1451511201/photo/bright-sun-with-beautiful-beams-in-a-blue-sky.jpg?s=612x612&w=0&k=20&c=CsuByylsqHLyCY_9kpAXk0sguGW1ZH5ySrG9CtgcjRY=");
+  padding: 10px;
+  background-size: cover;
+}
+.calcAge {
+  max-width: 600px;
+  margin: 10% auto;
+}
+.calcAge h4 {
+  font-size: 60px;
+  text-align: center;
+  color: darkslategray;
+}
+.inputBox {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #ffff76;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.inputBox input {
+  flex: 1;
+  margin-right: 20px;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.inputBox button {
+  background-color: skyblue;
+
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #333;
+}
+.inputBox input::-webkit-calendar-picker-indicator {
+  position: relative;
+  cursor: pointer;
+}
+input[type="date"]:focus {
+  border: 2px solid silver;
+}
+#textResult {
+  padding: 10px;
+  font-size: 23px;
+  word-spacing: 2.7px;
+  color: #333;
+  font-weight: bold;
+}
+#textResult span {
+  color: hsl(60, 100%, 73%);
+  font-weight: bolder;
+}
